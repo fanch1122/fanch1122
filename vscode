@@ -1,0 +1,133 @@
+[22:20:33.059] "install" wrote data to terminal: "********"
+[22:20:33.074] > 
+[22:20:33.962] > 197036bcb6cf: running
+[22:20:34.052] > Acquiring lock on /home/fanchenghu/.vscode-server/bin/441438abd1ac652551dbe4d408
+> dfcec8a499b8bf/vscode-remote-lock.fanchenghu.441438abd1ac652551dbe4d408dfcec8a49
+> 9b8bf
+> Installing to /home/fanchenghu/.vscode-server/bin/441438abd1ac652551dbe4d408dfce
+> c8a499b8bf...
+[22:20:34.067] > 197036bcb6cf%%1%%    
+> Downloading with wget
+[22:20:36.203] > Download complete
+[22:20:36.219] > 197036bcb6cf%%2%%
+> tar --version:
+> tar (GNU tar) 1.26
+> Copyright (C) 2011 Free Software Foundation, Inc.
+> License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+> This is free software: you are free to change and redistribute it.
+> There is NO WARRANTY, to the extent permitted by law.
+> 
+> Written by John Gilmore and Jay Fenlason.
+[22:20:37.750] > Checking /home/fanchenghu/.vscode-server/.441438abd1ac652551dbe4d408dfcec8a499b8
+> bf.log and /home/fanchenghu/.vscode-server/.441438abd1ac652551dbe4d408dfcec8a499
+> b8bf.pid for a running server
+[22:20:37.998] > Running ssh connection command... /home/fanchenghu/.vscode-server/bin/441438abd1
+> ac652551dbe4d408dfcec8a499b8bf/bin/code-server --start-server --host=127.0.0.1 -
+> -accept-server-license-terms --enable-remote-auto-shutdown --port=0 --telemetry-
+> level all   &> "/home/fanchenghu/.vscode-server/.441438abd1ac652551dbe4d408dfcec
+> 8a499b8bf.log" < /dev/null
+> printenv:
+>     XDG_SESSION_ID=70805
+>     SHELL=/bin/bash     
+>     SSH_CLIENT=172.26.56.163 57047 22
+>     PERL5LIB=/home/fanchenghu/perl5/lib/perl5:
+>     CONDA_SHLVL=1
+>     CONDA_PROMPT_MODIFIER=(base)
+>     PERL_MB_OPT=--install_base /home/fanchenghu/perl5
+>     USER=fanchenghu
+>     CONDA_EXE=/home/fanchenghu/miniconda3/bin/conda
+>     VSCODE_AGENT_FOLDER=/home/fanchenghu/.vscode-server
+>     _CE_CONDA=
+>     PATH=/home/fanchenghu/miniconda3/bin:/home/fanchenghu/miniconda3/condabin:/h
+> ome/fanchenghu/perl5/bin:/home/zhongshan/.aspera/connect/bin:/home/zhongshan/.as
+> pera/connect/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/fanchen
+> ghu/biosoft/tree/tree-1.7.0:/home/fanchenghu/.local/bin:/home/fanchenghu/bin:/ho
+> me/fanchenghu/biosoft/sratool/sratoolkit.2.10.0-ubuntu64/bin:/home/fanchenghu/.l
+> ocal/bin:/home/fanchenghu/bin:/home/fanchenghu/biosoft/json_sl/JSON-SL-1.0.1    
+>     MAIL=/var/mail/fanchenghu
+>     CONDA_PREFIX=/home/fanchenghu/miniconda3
+>     PWD=/home/fanchenghu
+>     LANG=en_US.UTF-8
+>     MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+>     LOADEDMODULES=
+>     _CE_M=
+>     HOME=/home/fanchenghu
+>     SHLVL=2
+>     PERL_LOCAL_LIB_ROOT=:/home/fanchenghu/perl5
+>     LOGNAME=fanchenghu
+>     CONDA_PYTHON_EXE=/home/fanchenghu/miniconda3/bin/python
+>     CVS_RSH=ssh
+[22:20:38.011] > 
+>     SSH_CONNECTION=172.26.56.163 57047 172.18.236.92 22
+>     XDG_DATA_DIRS=/home/fanchenghu/.local/share/flatpak/exports/share:/var/lib/f
+> latpak/exports/share:/usr/local/share:/usr/share
+>     MODULESHOME=/usr/share/Modules
+>     LESSOPEN=||/usr/bin/lesspipe.sh %s
+>     CONDA_DEFAULT_ENV=base
+>     XDG_RUNTIME_DIR=/run/user/1027
+>     PERL_MM_OPT=INSTALL_BASE=/home/fanchenghu/perl5
+>     BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+>     }
+>     _=/usr/bin/printenv
+>     OLDPWD=/home/fanchenghu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a
+> 499b8bf
+> rm: cannot remove ‘/home/fanchenghu/.vscode-server/.441438abd1ac652551dbe4d408df
+> cec8a499b8bf.token’: No such file or directory
+[22:20:38.017] > 
+> Spawned remote server: 261550
+> Waiting for server log...
+[22:20:38.033] > 
+[22:20:38.053] > Waiting for server log...
+[22:20:38.090] > Waiting for server log...
+[22:20:38.134] >  
+> *
+> * Visual Studio Code Server
+> *
+> * By using the software, you agree to
+> * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-lice
+> nse) and
+> * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacyst
+> atement).
+> *
+> 
+[22:20:38.148] > 
+> 197036bcb6cf: start
+> SSH_AUTH_SOCK====
+> DISPLAY====
+> webUiAccessToken====
+> listeningOn==39562==
+> osReleaseId==centos==
+> arch==x86_64==
+> tmpDir==/run/user/1027==
+> platform==linux==
+> unpackResult==success==
+> didLocalDownload==0==
+> downloadTime==2157==
+> installTime==1502==
+> extInstallTime====
+> serverStartTime==127==
+> connectionToken==aa1a11aa-a11a-1111-a1a1-1a111a11a111==
+> 197036bcb6cf: end
+[22:20:38.148] Received install output: 
+SSH_AUTH_SOCK====
+DISPLAY====
+webUiAccessToken====
+listeningOn==39562==
+osReleaseId==centos==
+arch==x86_64==
+tmpDir==/run/user/1027==
+platform==linux==
+unpackResult==success==
+didLocalDownload==0==
+downloadTime==2157==
+installTime==1502==
+extInstallTime====
+serverStartTime==127==
+connectionToken==aa1a11aa-a11a-1111-a1a1-1a111a11a111==
+
+[22:20:38.149] Remote server is listening on 39562
+[22:20:38.149] Parsed server configuration: {"serverConfiguration":{"remoteListeningOn":{"port":39562},"osReleaseId":"centos","arch":"x86_64","webUiAccessToken":"","sshAuthSock":"","display":"","tmpDir":"/run/user/1027","platform":"linux","connectionToken":"aa1a11aa-a11a-1111-a1a1-1a111a11a111"},"downloadTime":2157,"installTime":1502,"serverStartTime":127,"installUnpackCode":"success"}
+[22:20:38.153] Starting forwarding server. localPort 57055 -> socksPort 57046 -> remotePort 39562
+[22:20:38.153] Forwarding server listening on 57055
+[22:20:38.154] Waiting for ssh tunnel to be ready
+[22:20:38.155] Tunneled 39562 to local port 57055
